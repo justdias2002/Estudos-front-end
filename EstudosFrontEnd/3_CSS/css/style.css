@@ -1,0 +1,82 @@
+body {
+    padding-bottom: 500px;
+}
+
+h3 {
+  
+    color: salmon;
+}
+
+/*Comentario css */ 
+
+
+/*Classe reprentada como '.' e id repretado como '#' */
+#titulo-exclusivo {
+    background-color: black;
+    color: white;
+}
+
+.titulo-especial{
+font-size: 80px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-color: yellow;
+
+}
+
+h2{
+    border-bottom: 2px solid red;
+}
+
+.titulo{
+    border-bottom: 1px solid blue;
+}
+
+#algum-titulo{
+border-bottom: 2px solid rgb(0, 255, 4);
+}
+
+/* hex, rgb, hsl  */
+
+
+.hex{
+ color: #55a865;
+
+}
+
+.color-name{
+    color:blue;
+
+}
+.RGB {
+    color: rgb(210, 95, 255);
+}
+
+.color-rgba{
+    color: rgba(100, 200, 150, 0.3);
+}
+.color-hsl{
+    color: hsl(40, 62%, 51%);
+}
+
+/* backgorundcolor  */
+
+.bg{
+    background-color: black;
+    color: aliceblue;
+}
+.bg-2{
+        background-color: blueviolet;
+        color: white;
+}
+.bg-opacity{
+background-color: #1fc741;
+opacity: .2;
+
+}
+
+.bg-opacity2{
+    background-color: #ffb301;
+    opacity: .9;
+    
+    }
+
