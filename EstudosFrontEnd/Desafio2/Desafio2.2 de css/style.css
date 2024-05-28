@@ -1,0 +1,20 @@
+#box-model {
+    border: 3px solid lawngreen;
+    padding: 20px 10px;
+    border-radius: 50px;
+    margin: 20px 10px;
+    background-color: blue;
+    outline-color: gray;
+}
+
+.texto {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid red;
+    border-radius: 2px;
+}
+
+.h2 {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 2px;
+}
