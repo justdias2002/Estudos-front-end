@@ -309,3 +309,155 @@ border-radius: 5px;
 .obliquo{
     font-style: oblique;
 }
+
+/* font weight */
+
+.fonte-weight{
+  font-weight: 200;
+}
+.thin, .bold, .bolder{
+    font-family: Helvetica;
+}
+.thin{
+    font-weight: 100;
+}
+
+.bold{
+    font-weight: 700        ;
+}
+
+.bolder{
+    font-weight: 900;
+}
+
+/* font size */
+
+.small{
+    font-size: 6px;
+}
+
+.big{
+    font-size: 66px;
+}
+
+/* display */
+
+.inline-box{
+    width: 50px;
+    height: 50px;
+    background-color: #55a865;
+    display: inline-block;
+}
+
+.block{
+    background-color: #ffb301;
+    display: block;
+}
+
+.invisible{
+    display: none;
+}
+/* positions */
+
+.static{
+    position: static;
+    background-color: cadetblue;
+    width: 100px;
+    height: 100px;
+    color: white;
+}
+
+.relative{
+    position: relative;
+    background-color: darkblue;
+    color: white;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 100px;
+}
+
+.absolute{
+    position: absolute;
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+    top: 1px;
+    right: 1px;
+
+}
+
+.relative-container{
+    width: 330px;
+    height: 330px;
+    border: 1px solid red;
+    margin-top: 120px;
+    position: relative;
+}
+
+.absolute-1 , .absolute-2{
+    width: 50px;
+    height: 50px;
+    background-color: #1fc741;
+    position: absolute;
+}
+
+.absolute-1{
+    top: 10px;
+    left: 10px;
+}
+
+.absolute-2{
+    top: 40px;
+    right: 20px;
+}
+
+.fixed{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    background-color: #c8c3c3;
+    margin-top: 120px;
+    position: fixed;
+    top: 50px;
+    right: 100px;
+}
+
+.sticky{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    background-color: #c8c3c3;
+    margin-top: 120px;
+    position: sticky;
+   top: 1px;
+}
+
+/* z-index */
+
+.absolute-3,
+.absolute-4,
+.absolute-5{
+    width: 50px;
+    height: 50px;
+    background-color: darkslategrey;
+    position: absolute;
+}
+
+.absolute-3{
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+}
+.absolute-4{
+    top: 10px;
+    left: 10px;
+    background-color: goldenrod;
+    z-index: 2;
+}
+.absolute-5{
+    top: 20px;
+    left: 20px;
+    background-color: floralwhite;
+    z-index: 1;
+}
