@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h2>Formularios HTML</h2>
+    <form action="register.js" method="post">
+        <div>
+            <label>Nome:</label>
+            <input type="text">
+        </div>
+        <div>
+            <label for="age">Idade:</label>
+            <input type="text" name="age">
+        </div>
+        <div>
+            <label for="job">Selecione a sua profissão:</label>
+            <select name="job" id="">
+                <option value="programador">Programador</option>
+                <option value="tester">Tester.Q/A</option>
+                <option value="dev">Desenvolvedor</option>
+                <option value="design">Designer</option>
+            </select>
+        </div>
+        <div>
+            <label for="contract">Você leu os termos de contrato?</label>
+            <select name="contract">
+                <option value="sim">Sim</option>
+                <option value="nao" selected>Não</option>
+            </select>
+        </div>
+        <div>
+            <label for="intems">Selecione os intens de mercado:</label>
+            <select name="items" multiple>
+                <option value="pera">Pêra</option>
+                <option value="arroz">Arroz</option>
+                <option value="feijao">Feijão</option>
+                <option value="alho">Alho</option>
+            </select>
+        </div>
+        <div>
+            <label for="comment">Comentario</label>
+            <textarea name="comment"></textarea>
+        </div>
+        <div>
+        <fieldset>
+            <legend>Preencha com suas informações:</legend>
+            <label for="firstname">Nome:</label>
+            <input type="text" name="firstname">
+            <label for="lastname">Sobrenome</label>
+            <input type="text" name="lastname">
+        </fieldset>
+        </div>
+        <div>
+            <label for="flavor">Escolha o sabor</label>
+            <input type="text" name="flavor" list="flavors">
+            
+            <datalist id="flavors">
+
+                <option value="Cereja"></option>
+                <option value="Abacaxi"></option>
+                <option value="Morango"></option>
+                <option value="Chocolate"></option>
+            </datalist>
+        </div>
+        <div>
+            <label for="password">Senha:</label>
+            <input type="password">
+        </div>
+        <div>
+            <label for="car_model">Escolha o modelo do seu carro</label>
+            <div class="radio">
+                <input type="radio" value="bmw" name="car_model">
+                <label for="bmw">BMW</label>
+            </div>
+            <div class="radio">
+                <input type="radio" value="renault" name="car_model">
+                <label for="bmw">Renault</label>
+            </div>
+            <div class="radio">
+                <input type="radio" value="mercedes" name="car_model">
+                <label for="mercedes">Mercedes</label>
+            </div>
+        </div>
+
+        <div>
+            <label for="opitionals">Opicionais de um carro</label>
+            <div class="radio">
+                <input type="checkbox" name="opitionals[]" value="big_tires">
+                <label for="big_tires">Pneus grandes</label>
+            </div>
+            <div class="radio">
+                <input type="checkbox" name="opitionals[]" value="turbo_engine">
+                <label for="turbo_engine">Motor turbo</label>
+            </div>
+            <div class="radio">
+                <input type="checkbox" name="opitionals[]" value="hybird">
+                <label for="hybrid">Hibrido</label>
+            </div>
+        </div>
+
+        <div>
+            <label for="aniversario">Data de nasciemnto:
+                <input type="date" name="aniversario">
+            </label>
+        </div>
+
+        <div>
+            <label for="file">Enviar arquivo
+                <input type="file" name="file" id="">
+
+            </label>
+        </div>
+        <!-- Enviar -->
+       
+        <input type="reset" value="Limpar">
+        <div>
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+</body>
+
+</html>
