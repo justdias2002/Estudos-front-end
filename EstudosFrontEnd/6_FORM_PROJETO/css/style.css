@@ -28,7 +28,7 @@ input[type="text"],
 input[type="number"],
 input[type="date"],
 input[type="file"]{
-    width: 400px;
+    width: 300px;
 }
 
 .header{
@@ -42,10 +42,61 @@ input[type="file"]{
     margin-top: 0;
 }
 
+textarea{
+    padding: 10px;
+}
+
 .form-container{
     background-color: #fdfdfd;
     width: 60%;
     margin-left: 20%;
     margin: 0 auto;
     position: relative;
+}
+
+.form-header{
+    border-bottom: 1px solid #673ab7;
+    height: 45px;
+}
+
+.form-header p{
+    color: #673ab7;
+    border-bottom: 2px solid #673ab7;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    line-height: 45px;
+}
+
+.form-body{
+    padding: 30px;
+}
+
+.form-title{
+    margin-bottom: 15px;
+}
+
+.form-body p{
+    margin-bottom: 20px;
+}
+
+.required-field{
+    color: red;
+}
+
+.box-input{
+    margin-bottom: 35px;
+}
+
+.block{
+    display: block;
+}
+.opitional-box{
+    display: inline-block;
+    margin: 0 30px 30px 0; 
+
+}
+.opitional-list{
+    list-style: none;
 }
