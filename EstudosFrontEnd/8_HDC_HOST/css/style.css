@@ -209,3 +209,79 @@
 .plan .recommended{
     background-color: rgb(246, 69, 69);
 }
+
+/* search domain */
+
+.serachmain-container{
+  background-color: #34454e;
+  text-align: center;
+  padding: 5rem 0;
+}
+
+.serachmain-container h2{
+  color: white;
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.serachmain-container p{
+  color: white;
+  font-size: 24px;
+  margin-bottom: 25px;
+
+}
+
+.serachmain-container input{
+  display: block;
+  border: none;
+  border-radius: 5px;
+  margin:  0 auto;
+
+}
+
+.serachmain-container input[type="text"] {
+  width: 60%;
+  padding: 20px;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.serachmain-container input[type="submit"]{
+  background-color: #7db628;
+  padding: 15px 30px;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.serachmain-container input[type="submit"]:hover {
+  opacity: 1
+}
+
+.contact-container{
+  text-align: center;
+  padding: 5rem 0 2rem 0;
+
+}
+
+.contact-container h2{
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.contact-container p{
+  font-size: 20px;
+  margin-bottom: 40px;
+
+}
+
+.contact-container input,
+.contact-container textarea{
+  width: 200px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin: 0 10px 20px;
+}
