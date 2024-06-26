@@ -158,3 +158,29 @@ body {
 .shirink .small{
   flex-shrink: 2;
 }
+
+/* shorthand */
+
+.shorthand{
+  display: flex;
+}
+
+.shorthand .box{
+  width: auto;
+  flex: 1 1 50px;
+}
+
+.shorthand .diferente{
+  flex: 3 1 400px;
+}
+
+.align-self{
+  height: 300px;
+  display: flex;
+  align-items: end;
+  border:  1px solid black;
+}
+
+.align-self .diferente{
+  align-self: center;
+}
